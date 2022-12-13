@@ -43,7 +43,7 @@ int main(){
     xcomp = findXComponent(l1,l2,a1,a2);
     ycomp = findYComponent(l1,l2,a1,a2);
     result_vec_length = pythagoras(xcomp,ycomp);
-    result_vec_direction = rad2deg(atan2(ycomp,xcomp)); 
+    result_vec_direction = rad2deg(atan2(ycomp,xcomp));
 
     showResult(result_vec_length,result_vec_direction);
 }
